@@ -1,0 +1,33 @@
+/* Cuadrícula de alineamiento */
+.alignment-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+    grid-template-rows: repeat(3, 80px);
+    gap: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.alignment-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #333;
+    width: 80px;
+    height: 80px;
+    color: #fff; /* Color del texto en la celda */
+}
+
+/* Define la escala de grises */
+.alignment-cell[data-value="10"] { background-color: #fff; color: #000; }
+.alignment-cell[data-value="9"]  { background-color: #999; color: #000; }
+.alignment-cell[data-value="8"]  { background-color: #888; color: #000; }
+.alignment-cell[data-value="7"]  { background-color: #777; color: #000; }
+.alignment-cell[data-value="6"]  { background-color: #666; color: #FFF; }
+.alignment-cell[data-value="5"]  { background-color: #555; color: #FFF; }
+.alignment-cell[data-value="4"]  { background-color: #444; color: #FFF; }
+.alignment-cell[data-value="3"]  { background-color: #333; color: #FFF; }
+.alignment-cell[data-value="2"]  { background-color: #222; color: #FFF; }
+.alignment-cell[data-value="1"]  { background-color: #111; color: #FFF; }
+.alignment-cell[data-value="0"]  { background-color: #000; color: #FFF; }

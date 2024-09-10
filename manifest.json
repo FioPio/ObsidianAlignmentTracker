@@ -1,0 +1,11 @@
+{
+	"id": "alignment-tracker",
+	"name": "Alignment Tracker",
+	"version": "1.0.0",
+	"minAppVersion": "0.12.0",
+	"description": "Track character alignment using a 3x3 grid in Obsidian.",
+	"author": "LittleOwl",
+	"authorUrl": "https://github.com/FioPio",
+	"fundingUrl": "",
+	"isDesktopOnly": false
+}
