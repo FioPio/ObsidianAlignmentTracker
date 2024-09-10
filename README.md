@@ -1,20 +1,29 @@
 # **Obsidian Alignment Tracker**
 
-I always have found the alignment system DnD has a bit odd. I believe the players actions should determine their alginment and not the other way arround. Some people agree that then the alignment has no reason of being, but I think
-that this way you can get a better understanding of how are the players percieved
-in the world their characters live. It also restricts some magic items that have  alignment requirements.
+I have always found the alignment system in DnD a bit odd. I believe that players' actions should determine their alignment, not the other way around. Some people argue that this makes alignment pointless, but I think this approach provides a better understanding of how players are perceived in the world their characters inhabit. It also restricts access to certain magic items with alignment requirements.
 
-Well, for those hwo think the way I do and use obsidian I have a method that have worked since now:
+For those who agree with me and use Obsidian, I have a method that has worked so far:
 
-I draw two tables, one with the LC axis and another with the GE one. Every time my players do something that can be seen as Lawfull, Chaotic, Neutral, Good or Evel I mark a dot on the corresponding cell, and from time to time I look at the alignment tables I got for every one of them and I get a better view of what is their alingment, sometimes I even tell them so they know it.
+I draw two tables, one with the L-C axis and another with the G-E axis. Every time my players do something that could be seen as Lawful, Chaotic, Neutral, Good, or Evil, I mark a dot in the corresponding cell. From time to time, I review the alignment tables for each player to get a clearer view of their alignment. Sometimes, I even share this with them so they know where they stand.
 
-To do this in obsidian I developed this plugin, you just need to create a `alignmenttracker` block and use it, the propper usage is:
+
+# Usage
+To do this in Obsidian, I developed this plugin. You just need to create an alignmenttracker block and use it. I recommend creating a template with the Templater plugin using the following content:
+
+
 ```
-```alignmenttracker
+\```alignmenttracker
 L: 0
 C: 0
 G: 0
 E: 0
+\```
 ```
 
-Every time they do something that would correspond to `L`, `C`, `G` or `E` you can increase the corresponding number, and the gird will be automatically generated. 
+Every time they do something that would correspond to `L`, `C`, `G`, or `E` you can increase the relevant number, and the grid will be automatically generated.
+
+# POC
+
+The results are:
+![Alt text](res/text.png)
+![Alt text](res/view.png)
